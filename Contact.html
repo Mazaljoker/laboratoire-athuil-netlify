@@ -230,48 +230,49 @@
               </div>
               <div class="col-sm-6 col-smp-6 col-md-7">
                 <style>
-                  .netlify-form-half{padding-left:15px;padding-right:15px;width:50%;float:left}
-                  .netlify-submit{display:inline-block;width:auto;color:#fff;border-radius:10px;padding:16px 24px;font-size:16px;font-family:Roboto;font-weight:bold;border:none;background:#03a9f4;cursor:pointer;text-decoration:none}
-                  .netlify-submit:hover{background:#0288D1}
-                  @media(max-width:767px){.netlify-form-half{width:100%;float:none}}
+                  #netlify-contact{padding:30px 10px;margin:0}
+                  #netlify-contact .nc-row{display:flex;gap:15px;margin-bottom:15px}
+                  #netlify-contact .nc-full{margin-bottom:15px}
+                  #netlify-contact input,#netlify-contact textarea{
+                    width:100%;box-sizing:border-box;padding:8px 16px;
+                    font-family:Montserrat,sans-serif;font-weight:300;font-size:16px;
+                    color:#242424;background:#f0f0f0;
+                    border:2px solid #f36d2d;border-radius:19px;
+                    outline:none;transition:border-color .2s}
+                  #netlify-contact input{height:42px}
+                  #netlify-contact textarea{min-height:140px;resize:vertical}
+                  #netlify-contact input:focus,#netlify-contact textarea:focus{border-color:#03a9f4}
+                  #netlify-contact input::placeholder,#netlify-contact textarea::placeholder{color:#999}
+                  #netlify-contact .nc-btn{
+                    display:inline-block;margin-top:10px;padding:16px 30px;
+                    font-family:Roboto,sans-serif;font-weight:bold;font-size:16px;
+                    color:#fff;background:#03a9f4;border:none;border-radius:10px;
+                    cursor:pointer;transition:background .2s}
+                  #netlify-contact .nc-btn:hover{background:#0288D1}
+                  @media(max-width:767px){#netlify-contact .nc-row{flex-direction:column;gap:15px}}
                 </style>
-                <form name="contact" method="POST" action="/merci.html" data-netlify="true" netlify-honeypot="bot-field" class="au-pb-20 au-pt-20" style="padding:30px 10px !important;margin-top:0 !important;margin-bottom:0 !important">
-                  <p class="hidden" style="display:none">
-                    <label>Ne pas remplir : <input name="bot-field"></label>
-                  </p>
-                  <div>
-                    <div class="form-group netlify-form-half" style="margin-top:0;margin-bottom:15px">
-                      <input name="Nom" type="text" placeholder="Nom*" class="form-control" required style="color:#242424;font-size:16px;height:37px;font-family:Montserrat;font-weight:300;background-color:#f0f0f0;border-color:#f36d2d;border-width:2px;border-radius:19px">
-                    </div>
-                    <div class="form-group netlify-form-half" style="margin-top:0;margin-bottom:15px">
-                      <input name="Prenom" type="text" placeholder="Prénom*" class="form-control" required style="color:#242424;font-size:16px;height:37px;font-family:Montserrat;font-weight:300;background-color:#f0f0f0;border-color:#f36d2d;border-width:2px;border-radius:19px">
-                    </div>
-                    <div class="clearfix"></div>
-                    <div class="form-group netlify-form-half" style="margin-top:0;margin-bottom:15px">
-                      <input name="Adresse" type="text" placeholder="Adresse*" class="form-control" required style="color:#242424;font-size:16px;height:37px;font-family:Montserrat;font-weight:300;background-color:#f0f0f0;border-color:#f36d2d;border-width:2px;border-radius:19px">
-                    </div>
-                    <div class="form-group netlify-form-half" style="margin-top:0;margin-bottom:15px">
-                      <input name="Adresse2" type="text" placeholder="Adresse ligne 2" class="form-control" style="color:#242424;font-size:16px;height:37px;font-family:Montserrat;font-weight:300;background-color:#f0f0f0;border-color:#f36d2d;border-width:2px;border-radius:19px">
-                    </div>
-                    <div class="clearfix"></div>
-                    <div class="form-group netlify-form-half" style="margin-top:0;margin-bottom:15px">
-                      <input name="Ville" type="text" placeholder="Ville*" class="form-control" required style="color:#242424;font-size:16px;height:37px;font-family:Montserrat;font-weight:300;background-color:#f0f0f0;border-color:#f36d2d;border-width:2px;border-radius:19px">
-                    </div>
-                    <div class="form-group netlify-form-half" style="margin-top:0;margin-bottom:15px">
-                      <input name="CodePostal" type="text" placeholder="Code Postal*" class="form-control" required pattern="[0-9]{5}" style="color:#242424;font-size:16px;height:37px;font-family:Montserrat;font-weight:300;background-color:#f0f0f0;border-color:#f36d2d;border-width:2px;border-radius:19px">
-                    </div>
-                    <div class="clearfix"></div>
-                    <div class="form-group netlify-form-half" style="margin-top:0;margin-bottom:15px">
-                      <input name="Email" type="email" placeholder="Email*" class="form-control" required style="color:#242424;font-size:16px;height:37px;font-family:Montserrat;font-weight:300;background-color:#f0f0f0;border-color:#f36d2d;border-width:2px;border-radius:19px">
-                    </div>
-                    <div class="clearfix"></div>
-                    <div class="form-group" style="margin-top:0;margin-bottom:15px">
-                      <textarea name="Message" placeholder="Message*" class="form-control" required style="color:#242424;font-size:16px;font-family:Montserrat;font-weight:300;background-color:#f0f0f0;border-color:#f36d2d;border-width:2px;border-radius:19px"></textarea>
-                    </div>
-                    <div class="clearfix"></div>
+                <form id="netlify-contact" name="contact" method="POST" action="/merci.html" data-netlify="true" netlify-honeypot="bot-field">
+                  <p style="display:none"><label>Ne pas remplir : <input name="bot-field"></label></p>
+                  <div class="nc-row">
+                    <input name="Nom" type="text" placeholder="Nom *" required>
+                    <input name="Prenom" type="text" placeholder="Prénom *" required>
+                  </div>
+                  <div class="nc-row">
+                    <input name="Adresse" type="text" placeholder="Adresse *" required>
+                    <input name="Adresse2" type="text" placeholder="Adresse ligne 2">
+                  </div>
+                  <div class="nc-row">
+                    <input name="Ville" type="text" placeholder="Ville *" required>
+                    <input name="CodePostal" type="text" placeholder="Code Postal *" required pattern="[0-9]{5}" title="5 chiffres">
+                  </div>
+                  <div class="nc-full">
+                    <input name="Email" type="email" placeholder="Email *" required>
+                  </div>
+                  <div class="nc-full">
+                    <textarea name="Message" placeholder="Votre message *" required></textarea>
                   </div>
                   <div style="text-align:center">
-                    <button type="submit" class="netlify-submit"><i class="fa fa-envelope" style="font-size:16px;margin-right:8px"></i>Contactez nous</button>
+                    <button type="submit" class="nc-btn"><i class="fa fa-envelope" style="margin-right:8px"></i>Contactez nous</button>
                   </div>
                 </form>
               </div>
