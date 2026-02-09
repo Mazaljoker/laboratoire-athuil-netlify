@@ -229,48 +229,49 @@
                 </p>
               </div>
               <div class="col-sm-6 col-smp-6 col-md-7">
+                <style>
+                  .netlify-form-half{padding-left:15px;padding-right:15px;width:50%;float:left}
+                  .netlify-submit{display:inline-block;width:auto;color:#fff;border-radius:10px;padding:16px 24px;font-size:16px;font-family:Roboto;font-weight:bold;border:none;background:#03a9f4;cursor:pointer;text-decoration:none}
+                  .netlify-submit:hover{background:#0288D1}
+                  @media(max-width:767px){.netlify-form-half{width:100%;float:none}}
+                </style>
                 <form name="contact" method="POST" action="/merci.html" data-netlify="true" netlify-honeypot="bot-field" class="au-pb-20 au-pt-20" style="padding:30px 10px !important;margin-top:0 !important;margin-bottom:0 !important">
                   <p class="hidden" style="display:none">
                     <label>Ne pas remplir : <input name="bot-field"></label>
                   </p>
-                  <div class="appdrag-form">
-                    <div class="form-group appdrag-form-input-half" style="margin-top:0;margin-bottom:15px">
+                  <div>
+                    <div class="form-group netlify-form-half" style="margin-top:0;margin-bottom:15px">
                       <input name="Nom" type="text" placeholder="Nom*" class="form-control" required style="color:#242424;font-size:16px;height:37px;font-family:Montserrat;font-weight:300;background-color:#f0f0f0;border-color:#f36d2d;border-width:2px;border-radius:19px">
                     </div>
-                    <div class="form-group appdrag-form-input-half" style="margin-top:0;margin-bottom:15px">
+                    <div class="form-group netlify-form-half" style="margin-top:0;margin-bottom:15px">
                       <input name="Prenom" type="text" placeholder="Prénom*" class="form-control" required style="color:#242424;font-size:16px;height:37px;font-family:Montserrat;font-weight:300;background-color:#f0f0f0;border-color:#f36d2d;border-width:2px;border-radius:19px">
                     </div>
-                    <div class="clearfix">
-                    </div>
-                    <div class="form-group appdrag-form-input-half" style="margin-top:0;margin-bottom:15px">
+                    <div class="clearfix"></div>
+                    <div class="form-group netlify-form-half" style="margin-top:0;margin-bottom:15px">
                       <input name="Adresse" type="text" placeholder="Adresse*" class="form-control" required style="color:#242424;font-size:16px;height:37px;font-family:Montserrat;font-weight:300;background-color:#f0f0f0;border-color:#f36d2d;border-width:2px;border-radius:19px">
                     </div>
-                    <div class="form-group appdrag-form-input-half" style="margin-top:0;margin-bottom:15px">
+                    <div class="form-group netlify-form-half" style="margin-top:0;margin-bottom:15px">
                       <input name="Adresse2" type="text" placeholder="Adresse ligne 2" class="form-control" style="color:#242424;font-size:16px;height:37px;font-family:Montserrat;font-weight:300;background-color:#f0f0f0;border-color:#f36d2d;border-width:2px;border-radius:19px">
                     </div>
-                    <div class="clearfix">
-                    </div>
-                    <div class="form-group appdrag-form-input-half" style="margin-top:0;margin-bottom:15px">
+                    <div class="clearfix"></div>
+                    <div class="form-group netlify-form-half" style="margin-top:0;margin-bottom:15px">
                       <input name="Ville" type="text" placeholder="Ville*" class="form-control" required style="color:#242424;font-size:16px;height:37px;font-family:Montserrat;font-weight:300;background-color:#f0f0f0;border-color:#f36d2d;border-width:2px;border-radius:19px">
                     </div>
-                    <div class="form-group appdrag-form-input-half" style="margin-top:0;margin-bottom:15px">
+                    <div class="form-group netlify-form-half" style="margin-top:0;margin-bottom:15px">
                       <input name="CodePostal" type="text" placeholder="Code Postal*" class="form-control" required pattern="[0-9]{5}" style="color:#242424;font-size:16px;height:37px;font-family:Montserrat;font-weight:300;background-color:#f0f0f0;border-color:#f36d2d;border-width:2px;border-radius:19px">
                     </div>
-                    <div class="clearfix">
-                    </div>
-                    <div class="form-group appdrag-form-input-half" style="margin-top:0;margin-bottom:15px">
+                    <div class="clearfix"></div>
+                    <div class="form-group netlify-form-half" style="margin-top:0;margin-bottom:15px">
                       <input name="Email" type="email" placeholder="Email*" class="form-control" required style="color:#242424;font-size:16px;height:37px;font-family:Montserrat;font-weight:300;background-color:#f0f0f0;border-color:#f36d2d;border-width:2px;border-radius:19px">
                     </div>
-                    <div class="clearfix">
-                    </div>
-                    <div class="form-group appdrag-form-input" style="margin-top:0;margin-bottom:15px">
+                    <div class="clearfix"></div>
+                    <div class="form-group" style="margin-top:0;margin-bottom:15px">
                       <textarea name="Message" placeholder="Message*" class="form-control" required style="color:#242424;font-size:16px;font-family:Montserrat;font-weight:300;background-color:#f0f0f0;border-color:#f36d2d;border-width:2px;border-radius:19px"></textarea>
                     </div>
-                    <div class="clearfix">
-                    </div>
+                    <div class="clearfix"></div>
                   </div>
-                  <div class="appdrag-button-container" style="text-align:center">
-                    <button type="submit" class="appdrag-button appdrag-button-primary" style="width:auto;color:#fff;border-radius:10px;padding:16px 24px;font-size:16px;font-family:Roboto;font-weight:bold;border:none;background:#03a9f4;cursor:pointer"><i class="fa fa-envelope left" style="font-size:16px"></i> <span>Contactez nous</span></button>
+                  <div style="text-align:center">
+                    <button type="submit" class="netlify-submit"><i class="fa fa-envelope" style="font-size:16px;margin-right:8px"></i>Contactez nous</button>
                   </div>
                 </form>
               </div>
