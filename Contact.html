@@ -274,6 +274,21 @@
                     <button type="submit" class="netlify-submit"><i class="fa fa-envelope" style="font-size:16px;margin-right:8px"></i>Contactez nous</button>
                   </div>
                 </form>
+                <script>
+                  // Protect Netlify form from appdrag.js interception
+                  (function(){
+                    var f=document.querySelector('form[name="contact"]');
+                    if(!f)return;
+                    // Re-clone form after appdrag.js loads to strip any jQuery handlers
+                    var protect=function(){
+                      var clone=f.cloneNode(true);
+                      f.parentNode.replaceChild(clone,f);
+                      f=clone;
+                    };
+                    if(document.readyState==='complete'){protect()}
+                    else{window.addEventListener('load',function(){setTimeout(protect,500)})}
+                  })();
+                </script>
               </div>
             </div>
           </div>
