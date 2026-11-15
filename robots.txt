@@ -1,6 +1,5 @@
 User-agent: *
-Sitemap: https://www.laboratoireaa.com/sitemap.xml
-Sitemap: https://www.laboratoireaa.com/sitemap-blog.xml
+Sitemap: https://laboratoireaa.com/sitemap.xml
 Disallow: /ESSAI.html
 Disallow: /index-1.html
 Disallow: /Anatomie.html

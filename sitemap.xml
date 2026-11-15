@@ -1,20 +1,19 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd'>
-<url><loc>https://www.laboratoireaa.com/les-protections-auditives-du-Laboratoire-Auditif-Athuil.html</loc> <priority>0.80</priority> </url>
-<url><loc>https://www.laboratoireaa.com/</loc> <priority>1.00</priority> </url>
-<url><loc>https://www.laboratoireaa.com/Politiques-des-données-des-Laboratoires-Auditifs-Athuil.html</loc> <priority>0.80</priority> </url>
-<url><loc>https://www.laboratoireaa.com/Mentions-Légales.html</loc> <priority>0.80</priority> </url>
-<url><loc>https://www.laboratoireaa.com/Lyric.html</loc> <priority>0.80</priority> </url>
-<url><loc>https://www.laboratoireaa.com/Les-solutions-auditives.html</loc> <priority>0.80</priority> </url>
-<url><loc>https://www.laboratoireaa.com/Le-son.html</loc> <priority>0.80</priority> </url>
-<url><loc>https://www.laboratoireaa.com/L-entretien-des-aides-auditives.html</loc> <priority>0.80</priority> </url>
-<url><loc>https://www.laboratoireaa.com/L-audition--comment-ça-marche--.html</loc> <priority>0.80</priority> </url>
-<url><loc>https://www.laboratoireaa.com/Intras.html</loc> <priority>0.80</priority> </url>
-<url><loc>https://www.laboratoireaa.com/Hyperacousie.html</loc> <priority>0.80</priority> </url>
-<url><loc>https://www.laboratoireaa.com/Etude-OPTIMMUSIC.html</loc> <priority>0.80</priority> </url>
-<url><loc>https://www.laboratoireaa.com/Contours.html</loc> <priority>0.80</priority> </url>
-<url><loc>https://www.laboratoireaa.com/Contact.html</loc> <priority>0.80</priority> </url>
-<url><loc>https://www.laboratoireaa.com/Appareils-auditifs-contour-d-oreille--BTE----Essai-gratuit-de-60-jours.html</loc> <priority>0.80</priority> </url>
-<url><loc>https://www.laboratoireaa.com/Acouphènes.html</loc> <priority>0.80</priority> </url>
-<url><loc>https://www.laboratoireaa.com/Accesoires.html</loc> <priority>0.80</priority> </url>
+<urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
+<url><loc>https://laboratoireaa.com/</loc> <priority>1.00</priority> </url>
+<url><loc>https://laboratoireaa.com/acouph%C3%A8nes</loc> <priority>0.80</priority> </url>
+<url><loc>https://laboratoireaa.com/appareils-auditifs-contour-d-oreille--bte----essai-gratuit-de-60-jours</loc> <priority>0.80</priority> </url>
+<url><loc>https://laboratoireaa.com/contact</loc> <priority>0.80</priority> </url>
+<url><loc>https://laboratoireaa.com/contours</loc> <priority>0.80</priority> </url>
+<url><loc>https://laboratoireaa.com/etude-optimmusic</loc> <priority>0.80</priority> </url>
+<url><loc>https://laboratoireaa.com/hyperacousie</loc> <priority>0.80</priority> </url>
+<url><loc>https://laboratoireaa.com/intras</loc> <priority>0.80</priority> </url>
+<url><loc>https://laboratoireaa.com/l-audition--comment-%C3%A7a-marche--</loc> <priority>0.80</priority> </url>
+<url><loc>https://laboratoireaa.com/l-entretien-des-aides-auditives</loc> <priority>0.80</priority> </url>
+<url><loc>https://laboratoireaa.com/le-son</loc> <priority>0.80</priority> </url>
+<url><loc>https://laboratoireaa.com/les-solutions-auditives</loc> <priority>0.80</priority> </url>
+<url><loc>https://laboratoireaa.com/lyric</loc> <priority>0.80</priority> </url>
+<url><loc>https://laboratoireaa.com/mentions-l%C3%A9gales</loc> <priority>0.80</priority> </url>
+<url><loc>https://laboratoireaa.com/politiques-des-donn%C3%A9es-des-laboratoires-auditifs-athuil</loc> <priority>0.80</priority> </url>
+<url><loc>https://laboratoireaa.com/les-protections-auditives-du-laboratoire-auditif-athuil</loc> <priority>0.80</priority> </url>
 </urlset>
