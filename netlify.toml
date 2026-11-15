@@ -5,3 +5,14 @@
   from = "/merci"
   to = "/merci.html"
   status = 200
+
+# Anciennes URL signalees en 404 par la Search Console (15/11/2026)
+[[redirects]]
+  from = "/index.php"
+  to = "/"
+  status = 301
+
+[[redirects]]
+  from = "/Home.html"
+  to = "/"
+  status = 301
